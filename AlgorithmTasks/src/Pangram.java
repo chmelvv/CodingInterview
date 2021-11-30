@@ -1,5 +1,3 @@
-package pangram;
-
 import java.util.Locale;
 
 //A pangram is a sentence containing every letter in the English Alphabet (a-z).
