@@ -17,6 +17,7 @@ public class Pangram {
 
     public static void main(String[] args) {
         System.out.println(isPangram("Quick brown fox jumps over the lazy dog"));
+        System.out.println(isPangram("uick brown fox jumps over the lazy dog"));
     }
 
 }
