@@ -13,7 +13,7 @@ public class Armstrong {
         int length = str.length();
         int sum = 0;
         for (int i = 0; i < length; i++){
-            sum += Math.pow(Integer.parseInt(str.substring(i,i+1)), length);
+            sum += Math.pow(Integer.parseInt(str.substring(i, i+1)), length);
         }
         return sum == number;
     }
